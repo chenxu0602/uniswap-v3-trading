@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+remappings = ['@openzeppelin/contracts=lib/openzeppelin-contracts/contracts']
+
+[profile.default.rpc]
+url = "https://eth-mainnet.g.alchemy.com/v2/C_XMXMqmFaWy9Kc1Hm0GZuCVjMsPuYym"
+private_key = "0x3b6ee09e15b4a345355beb2dc263232fa1c6c0733f7bcefd7b376a7bc91ba687"
+
